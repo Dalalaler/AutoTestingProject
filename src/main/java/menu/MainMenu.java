@@ -12,7 +12,6 @@ public class MainMenu implements MenuItem {
         do {
             System.out.println(
                     "Select a browser to test: \n1. Chrome\n2. Edge\n3. FireFox\n4. Opera\n5. Exit\n");
-
             menuNumber = InputUtil.getIntFromConsole();
 
             switch (menuNumber) {
